@@ -15,14 +15,14 @@ This project presents a deep learning-based pipeline for rooftop solar potential
 - Solar energy yield estimation via PVGIS
 
 
-## 🔗 References
+## References
 
 - HRNet [1], OCR [2], SolarNet [3], SolarNet+ [4]
 - PVGIS: [https://ec.europa.eu/jrc/en/pvgis](https://ec.europa.eu/jrc/en/pvgis)
 
 ---
 
-## 📜 Selected Papers
+## Selected Papers
 
 [1] Wang et al., *Deep High-Resolution Representation Learning*, IEEE TPAMI, 2021.  
 [2] Yuan et al., *Object-Contextual Representations*, ECCV, 2020.  
