@@ -25,9 +25,10 @@ This project presents a deep learning-based pipeline for rooftop solar potential
 ## Selected Papers
 
 [1] Wang et al., *Deep High-Resolution Representation Learning*, IEEE TPAMI, 2021.  
-[2] Yuan et al., *Object-Contextual Representations*, ECCV, 2020.  
+[2] Yuan et al., *Object-Contextual Representations*, ECCV, 2020. 
 [3] Qingyu Li, Sebastian Krapf, Lichao Mou, Yilei Shi, Xiao Xiang Zhu. SolarNet: A convolutional neural network-based framework for rooftop solar potential estimation from aerial imagery Applied Energy,2024. doi: https://doi.org/10.1016/j.jag.2022.103098
 [4] Qingyu Li, Sebastian Krapf, Lichao Mou, Yilei Shi, Xiao Xiang Zhu. Deep learning-based framework for city-scale rooftop solar potential estimation by consid-ering roof superstructures. Applied Energy,2024. doi: https://doi.org/10.1016/j.apenergy.2024.123839
+
 ---
 
 *Feel free to clone, use, or adapt this project.*
