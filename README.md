@@ -4,6 +4,7 @@ An end-to-end deep learning pipeline for **automated rooftop segmentation** and 
 
 Uses HRNet + OCR with boundary-aware modules to produce accurate rooftop masks, estimate usable area, and compute annual energy generation with PVGIS data.
 
+This project presents a deep learning-based pipeline for rooftop solar potential estimation using high-resolution satellite imagery. It combines HRNet with OCR and boundary-aware modules for accurate rooftop segmentation, followed by post-processing and integration with PVGIS to estimate usable rooftop area and annual solar energy yield. The framework is trained in two stages—using the RID dataset for generic feature learning and a custom Indian dataset for local adaptation—supporting city-scale analysis for sustainable urban planning.
 ---
 
 ## Features
