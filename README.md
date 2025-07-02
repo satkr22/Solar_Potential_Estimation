@@ -6,7 +6,7 @@ Uses HRNet + OCR with boundary-aware modules to produce accurate rooftop masks, 
 
 ---
 
-## 🌟 Features
+## Features
 
 - HRNet + OCR backbone with boundary refinement
 - Two-stage training: RID pretraining + Indian fine-tuning
@@ -16,5 +16,55 @@ Uses HRNet + OCR with boundary-aware modules to produce accurate rooftop masks, 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+data_preparation/ # Tiling images, mask creation
+model/ # HRNet + OCR + boundary modules
+training/ # Training scripts and configs
+evaluation/ # Metrics, CRF post-processing
+solar_estimation/ # Area calculation, PVGIS API
+Indian_dataset/ # Custom tiled dataset
+RID_dataset/ # Public dataset for pretraining
+
+
+---
+
+## ⚙️ Usage
+
+1️⃣ Prepare data:  
+python data_preparation/tile_image.py
+python data_preparation/make_mask.py
+
+
+2️⃣ Train model:  
+python training/train.py
+
+
+3️⃣ Evaluate & post-process:  
+python evaluation/evaluate.py
+
+4️⃣ Estimate solar potential:  
+python solar_estimation/area_estimation.py
+python solar_estimation/pvgis_api_call.py
+
+
+---
+
+## 🔗 References
+
+- HRNet [1], OCR [2], SolarNet [3], SolarNet+ [4]
+- PVGIS: [https://ec.europa.eu/jrc/en/pvgis](https://ec.europa.eu/jrc/en/pvgis)
+
+---
+
+## 📜 Selected Papers
+
+[1] Wang et al., *Deep High-Resolution Representation Learning*, IEEE TPAMI, 2021.  
+[2] Yuan et al., *Object-Contextual Representations*, ECCV, 2020.  
+[3] Malakar et al., *SolarNet*, IEEE TGRS, 2019.  
+[4] Malakar et al., *SolarNet+*, RSE, 2022.
+
+---
+
+*Feel free to clone, use, or adapt this project.*
+
 
