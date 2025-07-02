@@ -28,27 +28,6 @@ RID_dataset/ # Public dataset for pretraining
 
 ---
 
-## ⚙️ Usage
-
-1️⃣ Prepare data:  
-python data_preparation/tile_image.py
-python data_preparation/make_mask.py
-
-
-2️⃣ Train model:  
-python training/train.py
-
-
-3️⃣ Evaluate & post-process:  
-python evaluation/evaluate.py
-
-4️⃣ Estimate solar potential:  
-python solar_estimation/area_estimation.py
-python solar_estimation/pvgis_api_call.py
-
-
----
-
 ## 🔗 References
 
 - HRNet [1], OCR [2], SolarNet [3], SolarNet+ [4]
