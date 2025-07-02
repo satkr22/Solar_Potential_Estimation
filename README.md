@@ -14,19 +14,6 @@ Uses HRNet + OCR with boundary-aware modules to produce accurate rooftop masks, 
 - Usable area estimation in m²
 - Solar energy yield estimation via PVGIS
 
----
-
-## Project Structure
-data_preparation/ # Tiling images, mask creation
-model/ # HRNet + OCR + boundary modules
-training/ # Training scripts and configs
-evaluation/ # Metrics, CRF post-processing
-solar_estimation/ # Area calculation, PVGIS API
-Indian_dataset/ # Custom tiled dataset
-RID_dataset/ # Public dataset for pretraining
-
-
----
 
 ## 🔗 References
 
